@@ -13,7 +13,7 @@ export default function App() {
         curso = 'Design Digital' />
       <Corpo />
       <Disciplina
-        disciplina = 'PIDM' />
+        disciplina = 'Desenho 1' />
     </View>
   );
 }
