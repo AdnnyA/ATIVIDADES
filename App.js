@@ -1,19 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Cabecalho from './src/cabecalho/Cabecalho'
-import Corpo from './src/corpo/Corpo'
-import Disciplina from './src/disciplina/Disciplina'
+import IMCApp from './src/atividade3/IMCApp'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Cabecalho
-        nome = 'Adnny'
-        curso = 'Design Digital' />
-      <Corpo />
-      <Disciplina
-        disciplina = 'Desenho 1' />
+      <IMCApp></IMCApp>
     </View>
   );
 }
